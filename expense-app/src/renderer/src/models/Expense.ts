@@ -1,1 +1,7 @@
-export interface expense{}
+export interface Expense{
+    date: Date
+    description: string
+    category: string
+    amount: number
+    currnecy: string
+}
